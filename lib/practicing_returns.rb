@@ -5,6 +5,7 @@ def hello(array)
   collection = []
   while i < array.length
   collection << yield(array[i])
+  1+=1
   
     yield(array[i])
     i += 1
